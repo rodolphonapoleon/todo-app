@@ -16,10 +16,10 @@ hr {
 
 .btn-flat {
   color: white;
-  background-color: rgb(238, 143, 20);
+  background-color: #ff914d;
 }
 .btn-flat:hover {
-  background-color: rgb(182, 90, 5);
+  background-color: rgb(209, 146, 63);
   color: white;
 }
 
@@ -38,7 +38,7 @@ hr {
 }
 
 .form-check-input:checked {
-  background-color: orange;
+  background-color: #ff914d;
 }
 
 .form-check-label {

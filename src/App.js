@@ -3,11 +3,11 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Todo from "./components/Todo";
 import FormInput from "./components/FormInput";
-import { Container, Col, Row, ListGroup } from "react-bootstrap";
+import { Container, Col, Row, ListGroup, Image } from "react-bootstrap";
 import FilterButton from "./components/FilterButton";
 import { useState } from "react";
 import { nanoid } from "nanoid";
-import logo from "./DayTask.png";
+import logo from "./logotask.png";
 
 const FILTER_MAP = {
   ALL: () => true,
@@ -81,11 +81,11 @@ function App(props) {
   return (
     <Container className="mt-5 Todo-body px-5">
       <Row className="justify-content-center">
-        <Col md="8" className="text-center mt-5 mb-4">
-          <div>
-            <img src={logo} alt="logo"></img>
-            <h4>Never Miss a Task</h4>
-          </div>
+        <Col md="8" className="text-center align-items-center mt-5 mb-4">
+          {/* <div> */}
+          <Image className="" src={logo} alt="" />
+          <h4>Never Miss a Task</h4>
+          {/* </div> */}
           <hr />
         </Col>
         <Col md="8">
