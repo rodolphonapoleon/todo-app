@@ -52,7 +52,7 @@ function App(props) {
         <Col md="8" className="text-center my-5">
           <div>
             <h1>DayTask</h1>
-            <h4>Never miss a task aaa</h4>
+            <h4>Never miss a task</h4>
           </div>
           <hr />
         </Col>
