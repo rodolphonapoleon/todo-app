@@ -27,7 +27,7 @@ export default function FormInput(props) {
           value={name}
         />
       </Form.Group>
-      <Button variant="primary" type="submit">
+      <Button variant="flat" type="submit">
         Submit
       </Button>
     </Form>
