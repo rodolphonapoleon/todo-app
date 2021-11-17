@@ -15,9 +15,9 @@ export default function FormInput(props) {
     setName("");
   }
   return (
-    <Form onSubmit={handleSubmit}>
+    <Form className="mb-3" onSubmit={handleSubmit}>
       <Form.Group className="mb-3" controlId="formTask">
-        <Form.Label>Enter your Task</Form.Label>
+        <Form.Label>My Daily Task...Whoaaa </Form.Label>
         <Form.Control
           onChange={handleChange}
           size="lg"

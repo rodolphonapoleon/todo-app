@@ -4,11 +4,11 @@ import { Button, Badge } from "react-bootstrap";
 export default function FilterButton(props) {
   return (
     <Button
-      variant="outline-primary"
+      variant="outline-flat"
       onClick={() => props.setFilter(props.filterName)}
     >
       {props.filterName}{" "}
-      <Badge variant="success" pill>
+      <Badge bg="secondary" pill>
         {props.filterQuantity}
       </Badge>
     </Button>

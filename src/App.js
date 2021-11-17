@@ -7,6 +7,7 @@ import { Container, Col, Row, ListGroup } from "react-bootstrap";
 import FilterButton from "./components/FilterButton";
 import { useState } from "react";
 import { nanoid } from "nanoid";
+import logo from "./DayTask.png";
 
 const FILTER_MAP = {
   ALL: () => true,
@@ -80,10 +81,10 @@ function App(props) {
   return (
     <Container className="mt-5 Todo-body px-5">
       <Row className="justify-content-center">
-        <Col md="8" className="text-center my-5">
+        <Col md="8" className="text-center mt-5 mb-4">
           <div>
-            <h1>DayTask</h1>
-            <h4>Never miss a task</h4>
+            <img src={logo} alt="logo"></img>
+            <h4>Never Miss a Task</h4>
           </div>
           <hr />
         </Col>
