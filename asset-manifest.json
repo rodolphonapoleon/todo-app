@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/todo-app/static/css/main.c163be61.chunk.css",
-    "main.js": "/todo-app/static/js/main.0e7bb25d.chunk.js",
-    "main.js.map": "/todo-app/static/js/main.0e7bb25d.chunk.js.map",
-    "runtime-main.js": "/todo-app/static/js/runtime-main.93ee23fd.js",
-    "runtime-main.js.map": "/todo-app/static/js/runtime-main.93ee23fd.js.map",
+    "main.css": "/todo-app/static/css/main.204902d9.chunk.css",
+    "main.js": "/todo-app/static/js/main.a75236fd.chunk.js",
+    "main.js.map": "/todo-app/static/js/main.a75236fd.chunk.js.map",
+    "runtime-main.js": "/todo-app/static/js/runtime-main.ad2485c0.js",
+    "runtime-main.js.map": "/todo-app/static/js/runtime-main.ad2485c0.js.map",
     "static/css/2.383c0125.chunk.css": "/todo-app/static/css/2.383c0125.chunk.css",
-    "static/js/2.c2e1dae7.chunk.js": "/todo-app/static/js/2.c2e1dae7.chunk.js",
-    "static/js/2.c2e1dae7.chunk.js.map": "/todo-app/static/js/2.c2e1dae7.chunk.js.map",
-    "static/js/3.51e0f28a.chunk.js": "/todo-app/static/js/3.51e0f28a.chunk.js",
-    "static/js/3.51e0f28a.chunk.js.map": "/todo-app/static/js/3.51e0f28a.chunk.js.map",
+    "static/js/2.f1a04b2a.chunk.js": "/todo-app/static/js/2.f1a04b2a.chunk.js",
+    "static/js/2.f1a04b2a.chunk.js.map": "/todo-app/static/js/2.f1a04b2a.chunk.js.map",
+    "static/js/3.d8ba9cb3.chunk.js": "/todo-app/static/js/3.d8ba9cb3.chunk.js",
+    "static/js/3.d8ba9cb3.chunk.js.map": "/todo-app/static/js/3.d8ba9cb3.chunk.js.map",
     "index.html": "/todo-app/index.html",
     "static/css/2.383c0125.chunk.css.map": "/todo-app/static/css/2.383c0125.chunk.css.map",
-    "static/css/main.c163be61.chunk.css.map": "/todo-app/static/css/main.c163be61.chunk.css.map",
-    "static/js/2.c2e1dae7.chunk.js.LICENSE.txt": "/todo-app/static/js/2.c2e1dae7.chunk.js.LICENSE.txt",
-    "static/media/DayTask.1d62c16a.png": "/todo-app/static/media/DayTask.1d62c16a.png"
+    "static/css/main.204902d9.chunk.css.map": "/todo-app/static/css/main.204902d9.chunk.css.map",
+    "static/js/2.f1a04b2a.chunk.js.LICENSE.txt": "/todo-app/static/js/2.f1a04b2a.chunk.js.LICENSE.txt",
+    "static/media/logotask.33a2602e.png": "/todo-app/static/media/logotask.33a2602e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.93ee23fd.js",
+    "static/js/runtime-main.ad2485c0.js",
     "static/css/2.383c0125.chunk.css",
-    "static/js/2.c2e1dae7.chunk.js",
-    "static/css/main.c163be61.chunk.css",
-    "static/js/main.0e7bb25d.chunk.js"
+    "static/js/2.f1a04b2a.chunk.js",
+    "static/css/main.204902d9.chunk.css",
+    "static/js/main.a75236fd.chunk.js"
   ]
 }
