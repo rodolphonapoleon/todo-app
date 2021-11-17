@@ -8,7 +8,6 @@ export default function FormInput(props) {
   function handleChange(e) {
     setName(e.target.value);
   }
-  console.log(name);
   function handleSubmit(e) {
     e.preventDefault();
     if (!name) return;

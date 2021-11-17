@@ -4,15 +4,16 @@ import "bootstrap/dist/css/bootstrap.min.css";
 export default function Todo(props) {
   return (
     <ListGroupItem>
-      <Row>
-        <Col md="10">
+      <Row className="px-3">
+        <Col sm="10">
           <Form.Check
             type="checkbox"
             label={props.name}
             defaultChecked={props.completed}
+            onChange={() => props.toggleCompleted(props.id)}
           ></Form.Check>
         </Col>
-        <Col md="2">
+        <Col sm="2">
           <Button
             type="button"
             size="sm"

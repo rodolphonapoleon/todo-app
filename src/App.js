@@ -8,14 +8,40 @@ import FilterButton from "./components/FilterButton";
 import { useState } from "react";
 import { nanoid } from "nanoid";
 
-const filters = [
-  { filterName: "ALL", filterQuantity: "3" },
-  { filterName: "ACTIVE", filterQuantity: "2" },
-  { filterName: "COMPLETED", filterQuantity: "1" },
-];
+const FILTER_MAP = {
+  ALL: () => true,
+  ACTIVE: (task) => !task.completed,
+  COMPLETED: (task) => task.completed,
+};
+
+const bname = Object.keys(FILTER_MAP);
 
 function App(props) {
   const [allTasks, setallTasks] = useState(props.tasks);
+
+  const filters = [
+    { filterName: bname[0], filterQuantity: `${allTasks.length}` },
+    {
+      filterName: bname[1],
+      filterQuantity: `${allTasks.filter((task) => !task.completed).length}`,
+    },
+    {
+      filterName: bname[2],
+      filterQuantity: `${allTasks.filter((task) => task.completed).length}`,
+    },
+  ];
+
+  const [filter, setFilter] = useState("ALL");
+
+  function toggleCompleted(id) {
+    const updatedTasks = allTasks.map((task) => {
+      if (id === task.id) {
+        return { ...task, completed: !task.completed };
+      }
+      return task;
+    });
+    setallTasks(updatedTasks);
+  }
 
   function addTask(name) {
     const newTask = {
@@ -33,22 +59,27 @@ function App(props) {
 
   const filterList = filters.map((button) => (
     <FilterButton
+      key={button.filterName}
       filterName={button.filterName}
       filterQuantity={button.filterQuantity}
+      setFilter={setFilter}
     />
   ));
-  const taskList = allTasks.map((task) => (
-    <Todo
-      id={task.id}
-      name={task.name}
-      completed={task.completed}
-      key={task.id}
-      deleteTask={deleteTask}
-    />
-  ));
+  const taskList = allTasks
+    .filter(FILTER_MAP[filter])
+    .map((task) => (
+      <Todo
+        id={task.id}
+        name={task.name}
+        completed={task.completed}
+        key={task.id}
+        deleteTask={deleteTask}
+        toggleCompleted={toggleCompleted}
+      />
+    ));
   return (
-    <Container className="mt-5">
-      <Row className="justify-content-center Todo-body">
+    <Container className="mt-5 Todo-body px-5">
+      <Row className="justify-content-center">
         <Col md="8" className="text-center my-5">
           <div>
             <h1>DayTask</h1>
