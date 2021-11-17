@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA,WACE,wBACF,CAEA,KACE,qBACF","file":"main.53ccc07b.chunk.css","sourcesContent":[".Todo-body {\n  background-color: blanchedalmond;\n}\n\nbody {\n  background-color: blue;\n}\n"]}
