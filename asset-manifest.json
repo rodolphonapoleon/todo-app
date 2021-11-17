@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/todo-app/static/css/main.11e80d6a.chunk.css",
-    "main.js": "/todo-app/static/js/main.21c8e669.chunk.js",
-    "main.js.map": "/todo-app/static/js/main.21c8e669.chunk.js.map",
-    "runtime-main.js": "/todo-app/static/js/runtime-main.0978d70d.js",
-    "runtime-main.js.map": "/todo-app/static/js/runtime-main.0978d70d.js.map",
+    "main.css": "/todo-app/static/css/main.c163be61.chunk.css",
+    "main.js": "/todo-app/static/js/main.0e7bb25d.chunk.js",
+    "main.js.map": "/todo-app/static/js/main.0e7bb25d.chunk.js.map",
+    "runtime-main.js": "/todo-app/static/js/runtime-main.93ee23fd.js",
+    "runtime-main.js.map": "/todo-app/static/js/runtime-main.93ee23fd.js.map",
     "static/css/2.383c0125.chunk.css": "/todo-app/static/css/2.383c0125.chunk.css",
-    "static/js/2.298b36df.chunk.js": "/todo-app/static/js/2.298b36df.chunk.js",
-    "static/js/2.298b36df.chunk.js.map": "/todo-app/static/js/2.298b36df.chunk.js.map",
-    "static/js/3.2859b490.chunk.js": "/todo-app/static/js/3.2859b490.chunk.js",
-    "static/js/3.2859b490.chunk.js.map": "/todo-app/static/js/3.2859b490.chunk.js.map",
+    "static/js/2.c2e1dae7.chunk.js": "/todo-app/static/js/2.c2e1dae7.chunk.js",
+    "static/js/2.c2e1dae7.chunk.js.map": "/todo-app/static/js/2.c2e1dae7.chunk.js.map",
+    "static/js/3.51e0f28a.chunk.js": "/todo-app/static/js/3.51e0f28a.chunk.js",
+    "static/js/3.51e0f28a.chunk.js.map": "/todo-app/static/js/3.51e0f28a.chunk.js.map",
     "index.html": "/todo-app/index.html",
     "static/css/2.383c0125.chunk.css.map": "/todo-app/static/css/2.383c0125.chunk.css.map",
-    "static/css/main.11e80d6a.chunk.css.map": "/todo-app/static/css/main.11e80d6a.chunk.css.map",
-    "static/js/2.298b36df.chunk.js.LICENSE.txt": "/todo-app/static/js/2.298b36df.chunk.js.LICENSE.txt"
+    "static/css/main.c163be61.chunk.css.map": "/todo-app/static/css/main.c163be61.chunk.css.map",
+    "static/js/2.c2e1dae7.chunk.js.LICENSE.txt": "/todo-app/static/js/2.c2e1dae7.chunk.js.LICENSE.txt",
+    "static/media/DayTask.1d62c16a.png": "/todo-app/static/media/DayTask.1d62c16a.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0978d70d.js",
+    "static/js/runtime-main.93ee23fd.js",
     "static/css/2.383c0125.chunk.css",
-    "static/js/2.298b36df.chunk.js",
-    "static/css/main.11e80d6a.chunk.css",
-    "static/js/main.21c8e669.chunk.js"
+    "static/js/2.c2e1dae7.chunk.js",
+    "static/css/main.c163be61.chunk.css",
+    "static/js/main.0e7bb25d.chunk.js"
   ]
 }
